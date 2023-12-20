@@ -120,7 +120,7 @@ Resources:
   MasterEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      InstanceType: t3.large
+      InstanceType: t2.large
       KeyName: !Ref MyKeyPair
       Tags:
         - Key: Name
